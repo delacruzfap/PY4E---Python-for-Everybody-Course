@@ -23,6 +23,6 @@ for item in lst:
     count = int(item.find('count').text)
     count_list.append(count)
 
-print('Retrieved', )
+print('Retrieved', len(html), 'characters')
 print('Count:', counter)
 print('Sum:', sum(count_list))
